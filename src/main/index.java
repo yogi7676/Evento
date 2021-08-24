@@ -12,8 +12,8 @@ public class index {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Customer frame=new Customer("U002");
-					//Login frame=new Login();
+					//Customer frame=new Customer("U002");
+					Login frame=new Login();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
